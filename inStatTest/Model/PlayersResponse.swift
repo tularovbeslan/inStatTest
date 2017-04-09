@@ -9,7 +9,7 @@
 import Foundation
 
 struct PlayersResponse {
-    var order: Int?
-    var playerId: Int?
-    var playerName: String?
+    let order: Int?
+    let playerId: Int?
+    let playerName: String?
 }

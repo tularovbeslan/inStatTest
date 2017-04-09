@@ -98,4 +98,3 @@ extension MatchStatisticViewController: MatchStatisticViewControllerProtocol {
         segmentedControl.setTitle(names[1], forSegmentAt: 1)
     }
 }
-
