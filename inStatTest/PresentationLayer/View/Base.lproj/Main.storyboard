@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Match Statistic View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MatchStatisticViewController" customModule="inStatTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4ZF-7b-l90">
+                                <rect key="frame" x="0.0" y="78" width="768" height="946"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatchStatisticHeader" id="XMB-Wr-VKf" customClass="MatchStatisticHeaderView" customModule="inStatTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XMB-Wr-VKf" id="CTg-B7-Wha">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJa-v7-7Pt">
+                                                    <rect key="frame" x="10" y="0.0" width="748" height="43.5"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="b8y-ni-toy">
+                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="43.5"/>
+                                                            <subviews>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nep-4n-3Oe">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="43.5"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="150" id="Ydr-GD-55q"/>
+                                                                    </constraints>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Player">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y0n-dr-lbX">
+                                                            <rect key="frame" x="150" y="0.0" width="598" height="43.5"/>
+                                                            <subviews>
+                                                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zh4-zE-oWF">
+                                                                    <rect key="frame" x="0.0" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Total distance">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9SW-ie-kPU">
+                                                                    <rect key="frame" x="54.5" y="10" width="54" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Average speed">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPi-1z-Nvd">
+                                                                    <rect key="frame" x="108.5" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Minutes played">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kiv-E2-bn2">
+                                                                    <rect key="frame" x="163" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="InStat Index">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCQ-7a-WxS">
+                                                                    <rect key="frame" x="217.5" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Goals">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jyp-d6-Tmy">
+                                                                    <rect key="frame" x="272" y="10" width="54" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Goals">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XQe-MF-LEH">
+                                                                    <rect key="frame" x="326" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Goals">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lks-V8-H46">
+                                                                    <rect key="frame" x="380.5" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Assists">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xI4-qI-DFg">
+                                                                    <rect key="frame" x="435" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Assists">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AaJ-cs-HZb">
+                                                                    <rect key="frame" x="489.5" y="10" width="54" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Shots n/ Shots on target">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iH5-0j-Vts">
+                                                                    <rect key="frame" x="543.5" y="10" width="54.5" height="24"/>
+                                                                    <state key="normal">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Accelerations distance %">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                    <font key="NSFont" metaFont="system" size="10"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                    </state>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="eJa-v7-7Pt" secondAttribute="trailing" constant="10" id="5hB-vS-pJL"/>
+                                                <constraint firstAttribute="bottom" secondItem="eJa-v7-7Pt" secondAttribute="bottom" id="Y9q-Ww-LJT"/>
+                                                <constraint firstItem="eJa-v7-7Pt" firstAttribute="leading" secondItem="CTg-B7-Wha" secondAttribute="leading" constant="10" id="Yp2-B6-dTL"/>
+                                                <constraint firstItem="eJa-v7-7Pt" firstAttribute="top" secondItem="CTg-B7-Wha" secondAttribute="top" id="xaY-N3-pIh"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outletCollection property="columnButtons" destination="Nep-4n-3Oe" collectionClass="NSMutableArray" id="mOe-Cz-qCi"/>
+                                            <outletCollection property="columnButtons" destination="Lks-V8-H46" collectionClass="NSMutableArray" id="RdG-cH-0Cc"/>
+                                            <outletCollection property="columnButtons" destination="kPi-1z-Nvd" collectionClass="NSMutableArray" id="yUh-vR-fdq"/>
+                                            <outletCollection property="columnButtons" destination="iH5-0j-Vts" collectionClass="NSMutableArray" id="A97-yh-EOU"/>
+                                            <outletCollection property="columnButtons" destination="XQe-MF-LEH" collectionClass="NSMutableArray" id="7Rt-Vi-DRw"/>
+                                            <outletCollection property="columnButtons" destination="AaJ-cs-HZb" collectionClass="NSMutableArray" id="88x-iZ-JYz"/>
+                                            <outletCollection property="columnButtons" destination="CCQ-7a-WxS" collectionClass="NSMutableArray" id="VUR-D5-n3m"/>
+                                            <outletCollection property="columnButtons" destination="9SW-ie-kPU" collectionClass="NSMutableArray" id="zGt-N1-zrU"/>
+                                            <outletCollection property="columnButtons" destination="Kiv-E2-bn2" collectionClass="NSMutableArray" id="Skv-Mq-cTO"/>
+                                            <outletCollection property="columnButtons" destination="xI4-qI-DFg" collectionClass="NSMutableArray" id="EDM-Vi-uSZ"/>
+                                            <outletCollection property="columnButtons" destination="Zh4-zE-oWF" collectionClass="NSMutableArray" id="kKb-QF-f96"/>
+                                            <outletCollection property="columnButtons" destination="Jyp-d6-Tmy" collectionClass="NSMutableArray" id="lQN-eG-aw2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatchStatisticCell" id="TSD-U4-8E7" customClass="MatchStatisticCellView" customModule="inStatTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TSD-U4-8E7" id="hh9-oi-D78">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l42-ux-czE">
+                                                    <rect key="frame" x="10" y="0.0" width="748" height="43.5"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0qO-gB-ddZ">
+                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="43.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoy-tP-KmP">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="43.5"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="150" id="994-e0-e5L"/>
+                                                                    </constraints>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e1W-Dr-nqf">
+                                                            <rect key="frame" x="150" y="0.0" width="598" height="43.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBm-S8-Hpl">
+                                                                    <rect key="frame" x="0.0" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcY-Az-lF4">
+                                                                    <rect key="frame" x="54.5" y="16" width="54" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTa-CZ-YAf">
+                                                                    <rect key="frame" x="108.5" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPR-oO-3Iy">
+                                                                    <rect key="frame" x="163" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-Ht-xUQ">
+                                                                    <rect key="frame" x="217.5" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Pu-Wc-D5u">
+                                                                    <rect key="frame" x="272" y="16" width="54" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0v-LF-bOn">
+                                                                    <rect key="frame" x="326" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wW5-jy-eYK">
+                                                                    <rect key="frame" x="380.5" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dib-C7-exx">
+                                                                    <rect key="frame" x="435" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n95-s1-emw">
+                                                                    <rect key="frame" x="489.5" y="16" width="54" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7r-mE-Wo8">
+                                                                    <rect key="frame" x="543.5" y="16" width="54.5" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="l42-ux-czE" secondAttribute="bottom" id="Uqx-LG-E9D"/>
+                                                <constraint firstItem="l42-ux-czE" firstAttribute="leading" secondItem="hh9-oi-D78" secondAttribute="leading" constant="10" id="gxv-mv-4qK"/>
+                                                <constraint firstAttribute="trailing" secondItem="l42-ux-czE" secondAttribute="trailing" constant="10" id="krX-Gm-xdw"/>
+                                                <constraint firstItem="l42-ux-czE" firstAttribute="top" secondItem="hh9-oi-D78" secondAttribute="top" id="nSG-R1-3Kp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outletCollection property="labels" destination="yoy-tP-KmP" collectionClass="NSMutableArray" id="y3s-iI-hlI"/>
+                                            <outletCollection property="labels" destination="E7r-mE-Wo8" collectionClass="NSMutableArray" id="tpW-2U-9pH"/>
+                                            <outletCollection property="labels" destination="FTa-CZ-YAf" collectionClass="NSMutableArray" id="bds-Qu-2l7"/>
+                                            <outletCollection property="labels" destination="GcY-Az-lF4" collectionClass="NSMutableArray" id="kR5-ZJ-JcK"/>
+                                            <outletCollection property="labels" destination="wW5-jy-eYK" collectionClass="NSMutableArray" id="omF-ek-Amb"/>
+                                            <outletCollection property="labels" destination="9Pu-Wc-D5u" collectionClass="NSMutableArray" id="5nk-Cs-v6c"/>
+                                            <outletCollection property="labels" destination="n95-s1-emw" collectionClass="NSMutableArray" id="Z8O-ZU-lZa"/>
+                                            <outletCollection property="labels" destination="WBm-S8-Hpl" collectionClass="NSMutableArray" id="fdC-iH-pDp"/>
+                                            <outletCollection property="labels" destination="Dib-C7-exx" collectionClass="NSMutableArray" id="jX8-mw-Sra"/>
+                                            <outletCollection property="labels" destination="L0v-LF-bOn" collectionClass="NSMutableArray" id="wr9-CA-nH1"/>
+                                            <outletCollection property="labels" destination="lTb-Ht-xUQ" collectionClass="NSMutableArray" id="pTY-a1-PD1"/>
+                                            <outletCollection property="labels" destination="pPR-oO-3Iy" collectionClass="NSMutableArray" id="ytN-fO-1HI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Cfa-VI-hC1"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YsX-qE-io1"/>
+                                </connections>
+                            </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dpb-03-1BE">
+                                <rect key="frame" x="324.5" y="40" width="119" height="29"/>
+                                <segments>
+                                    <segment title="Team 1"/>
+                                    <segment title="Team 2"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeTeam:" destination="BYZ-38-t0r" eventType="valueChanged" id="QhD-Rl-HuO"/>
+                                </connections>
+                            </segmentedControl>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="eBm-Ul-byI">
+                                <rect key="frame" x="366" y="340" width="37" height="37"/>
+                                <color key="color" red="0.058823529409999999" green="0.63529411759999999" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eBm-Ul-byI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.7" id="Es5-sK-EBt"/>
+                            <constraint firstAttribute="trailing" secondItem="4ZF-7b-l90" secondAttribute="trailing" id="F6h-aO-LJl"/>
+                            <constraint firstItem="4ZF-7b-l90" firstAttribute="top" secondItem="dpb-03-1BE" secondAttribute="bottom" constant="10" id="I2F-Hy-oIf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ZF-7b-l90" secondAttribute="bottom" id="JTU-HW-MwD"/>
+                            <constraint firstItem="dpb-03-1BE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="JsD-kA-PvD"/>
+                            <constraint firstItem="eBm-Ul-byI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZNy-Y8-yGf"/>
+                            <constraint firstItem="dpb-03-1BE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lUN-7V-p5a"/>
+                            <constraint firstItem="4ZF-7b-l90" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yP0-X2-IHZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="eBm-Ul-byI" id="VdJ-qV-GUV"/>
+                        <outlet property="segmentedControl" destination="dpb-03-1BE" id="uiF-eG-olv"/>
+                        <outlet property="tableView" destination="4ZF-7b-l90" id="AAb-6n-p1z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.5" y="138.8671875"/>
+        </scene>
+    </scenes>
+</document>

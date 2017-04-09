@@ -1,0 +1,6 @@
+framework module Pods_inStatTest {
+  umbrella header "Pods-inStatTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
