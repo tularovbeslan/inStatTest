@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-class NetworkClient {
+class NetworkClientImplementation: Network {
     func loadData(completion: @escaping (Result<Any>) -> Void) {
         Alamofire.request(urlString).responseJSON { (response) in
             completion(response.result)

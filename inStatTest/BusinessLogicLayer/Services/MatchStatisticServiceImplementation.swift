@@ -10,10 +10,10 @@ import Foundation
 
 class MatchStatisticServiceImplementation: MatchStatisticService {
 
-    var networkClient: NetworkClient!
+    var networkClient: Network!
     var mapper: Mapper!
     
-    init(networkClient: NetworkClient, mapper: Mapper) {
+    init(networkClient: Network, mapper: Mapper) {
         self.networkClient = networkClient
         self.mapper = mapper
     }

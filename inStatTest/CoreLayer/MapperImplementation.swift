@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-class Mapper {
+class MapperImplementation: Mapper {
     func map(data: Any?) -> StatisticResponse? {
         guard let map = data else {return nil}
         let json = JSON(map)

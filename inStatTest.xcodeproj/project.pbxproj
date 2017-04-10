@@ -22,11 +22,13 @@
 		2B43E1D61E93C68300051DC6 /* inStatTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43E1D51E93C68300051DC6 /* inStatTestTests.swift */; };
 		2B43E1E11E93C68300051DC6 /* inStatTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43E1E01E93C68300051DC6 /* inStatTestUITests.swift */; };
 		2B9B96921E9AB4CB009D1F05 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B96911E9AB4CB009D1F05 /* Assembly.swift */; };
+		2BD5072B1E9B9DBF00E92E1B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5072A1E9B9DBF00E92E1B /* Network.swift */; };
+		2BD5072D1E9B9E5800E92E1B /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5072C1E9B9E5800E92E1B /* Mapper.swift */; };
 		2BF21E2D1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF21E2C1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift */; };
 		2BF831911E970168001AEA85 /* MatchStatisticPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831901E970168001AEA85 /* MatchStatisticPresentor.swift */; };
-		2BF831961E970D42001AEA85 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831951E970D42001AEA85 /* NetworkClient.swift */; };
+		2BF831961E970D42001AEA85 /* NetworkClientImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */; };
 		2BF831991E970DFD001AEA85 /* CoreLayerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831981E970DFD001AEA85 /* CoreLayerConstants.swift */; };
-		2BF8319C1E970EC3001AEA85 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8319B1E970EC3001AEA85 /* Mapper.swift */; };
+		2BF8319C1E970EC3001AEA85 /* MapperImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8319B1E970EC3001AEA85 /* MapperImplementation.swift */; };
 		9938D8ABDF82D5481F891085 /* Pods_inStatTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47E5E133E1D96C6E00F8B3C /* Pods_inStatTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,11 +71,13 @@
 		2B43E1E01E93C68300051DC6 /* inStatTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inStatTestUITests.swift; sourceTree = "<group>"; };
 		2B43E1E21E93C68300051DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9B96911E9AB4CB009D1F05 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = ApplicationLayer/Assembly.swift; sourceTree = "<group>"; };
+		2BD5072A1E9B9DBF00E92E1B /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2BD5072C1E9B9E5800E92E1B /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		2BF21E2C1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticServiceImplementation.swift; path = BusinessLogicLayer/Services/MatchStatisticServiceImplementation.swift; sourceTree = "<group>"; };
 		2BF831901E970168001AEA85 /* MatchStatisticPresentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticPresentor.swift; path = PresentationLayer/Presentor/MatchStatisticPresentor.swift; sourceTree = "<group>"; };
-		2BF831951E970D42001AEA85 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkClient.swift; path = CoreLayer/NetworkClient.swift; sourceTree = "<group>"; };
+		2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkClientImplementation.swift; path = CoreLayer/NetworkClientImplementation.swift; sourceTree = "<group>"; };
 		2BF831981E970DFD001AEA85 /* CoreLayerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreLayerConstants.swift; path = CoreLayer/Constants/CoreLayerConstants.swift; sourceTree = "<group>"; };
-		2BF8319B1E970EC3001AEA85 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = CoreLayer/Mapper.swift; sourceTree = "<group>"; };
+		2BF8319B1E970EC3001AEA85 /* MapperImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapperImplementation.swift; path = CoreLayer/MapperImplementation.swift; sourceTree = "<group>"; };
 		C47E5E133E1D96C6E00F8B3C /* Pods_inStatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inStatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7AA412156947C8500B8F84 /* Pods-inStatTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inStatTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-inStatTest/Pods-inStatTest.release.xcconfig"; sourceTree = "<group>"; };
 		DE36456A59C27F9377300E53 /* Pods-inStatTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inStatTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inStatTest/Pods-inStatTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -260,8 +264,10 @@
 		2BF831971E970D9D001AEA85 /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
-				2BF831951E970D42001AEA85 /* NetworkClient.swift */,
-				2BF8319B1E970EC3001AEA85 /* Mapper.swift */,
+				2BD5072A1E9B9DBF00E92E1B /* Network.swift */,
+				2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */,
+				2BF8319B1E970EC3001AEA85 /* MapperImplementation.swift */,
+				2BD5072C1E9B9E5800E92E1B /* Mapper.swift */,
 				2BF8319A1E970E78001AEA85 /* Constants */,
 			);
 			name = CoreLayer;
@@ -479,12 +485,14 @@
 				2BF831991E970DFD001AEA85 /* CoreLayerConstants.swift in Sources */,
 				2BF21E2D1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift in Sources */,
 				2B3282A91E96FBC50056EE7B /* MatchStatisticCellView.swift in Sources */,
+				2BD5072B1E9B9DBF00E92E1B /* Network.swift in Sources */,
 				2BF831911E970168001AEA85 /* MatchStatisticPresentor.swift in Sources */,
-				2BF8319C1E970EC3001AEA85 /* Mapper.swift in Sources */,
+				2BF8319C1E970EC3001AEA85 /* MapperImplementation.swift in Sources */,
+				2BD5072D1E9B9E5800E92E1B /* Mapper.swift in Sources */,
 				2B9B96921E9AB4CB009D1F05 /* Assembly.swift in Sources */,
 				2B3282AA1E96FBC50056EE7B /* MatchStatisticHeaderView.swift in Sources */,
 				2B3282A21E96FB330056EE7B /* MatchStatisticService.swift in Sources */,
-				2BF831961E970D42001AEA85 /* NetworkClient.swift in Sources */,
+				2BF831961E970D42001AEA85 /* NetworkClientImplementation.swift in Sources */,
 				2B3282A81E96FBC50056EE7B /* MatchStatisticViewController.swift in Sources */,
 				2B3282A41E96FB930056EE7B /* PresentationLayerConstants.swift in Sources */,
 			);

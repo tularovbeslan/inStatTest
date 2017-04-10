@@ -19,10 +19,10 @@ extension SwinjectStoryboard {
         }
         
         defaultContainer.register(MatchStatisticServiceImplementation.self) { r in
-            MatchStatisticServiceImplementation(networkClient: r.resolve(NetworkClient.self)!, mapper: r.resolve(Mapper.self)!)
+            MatchStatisticServiceImplementation(networkClient: r.resolve(Network.self)!, mapper: r.resolve(Mapper.self)!)
         }
         
-        defaultContainer.register(NetworkClient.self) { _ in NetworkClient() }
-        defaultContainer.register(Mapper.self) { _ in Mapper() }
+        defaultContainer.register(Network.self) { _ in NetworkClientImplementation() }
+        defaultContainer.register(Mapper.self) { _ in MapperImplementation() }
     }
 }
