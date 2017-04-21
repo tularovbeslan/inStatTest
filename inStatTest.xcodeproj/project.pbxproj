@@ -19,11 +19,11 @@
 		2B3282B01E96FBE10056EE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3282AD1E96FBE10056EE7B /* LaunchScreen.storyboard */; };
 		2B3282B21E96FC250056EE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3282B11E96FC250056EE7B /* Assets.xcassets */; };
 		2B3282B61E96FC6A0056EE7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282B51E96FC6A0056EE7B /* AppDelegate.swift */; };
+		2B3EB6BE1EAA50F900741A77 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EB6BC1EAA50F900741A77 /* Mapper.swift */; };
+		2B3EB6BF1EAA50F900741A77 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EB6BD1EAA50F900741A77 /* Network.swift */; };
 		2B43E1D61E93C68300051DC6 /* inStatTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43E1D51E93C68300051DC6 /* inStatTestTests.swift */; };
 		2B43E1E11E93C68300051DC6 /* inStatTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43E1E01E93C68300051DC6 /* inStatTestUITests.swift */; };
 		2B9B96921E9AB4CB009D1F05 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B96911E9AB4CB009D1F05 /* Assembly.swift */; };
-		2BD5072B1E9B9DBF00E92E1B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5072A1E9B9DBF00E92E1B /* Network.swift */; };
-		2BD5072D1E9B9E5800E92E1B /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5072C1E9B9E5800E92E1B /* Mapper.swift */; };
 		2BF21E2D1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF21E2C1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift */; };
 		2BF831911E970168001AEA85 /* MatchStatisticPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831901E970168001AEA85 /* MatchStatisticPresentor.swift */; };
 		2BF831961E970D42001AEA85 /* NetworkClientImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */; };
@@ -63,6 +63,8 @@
 		2B3282B11E96FC250056EE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 		2B3282B31E96FC490056EE7B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		2B3282B51E96FC6A0056EE7B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ApplicationLayer/AppDelegate.swift; sourceTree = "<group>"; };
+		2B3EB6BC1EAA50F900741A77 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = CoreLayer/Mapper.swift; sourceTree = "<group>"; };
+		2B3EB6BD1EAA50F900741A77 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Network.swift; path = CoreLayer/Network.swift; sourceTree = "<group>"; };
 		2B43E1BD1E93C68300051DC6 /* inStatTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inStatTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B43E1D11E93C68300051DC6 /* inStatTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inStatTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B43E1D51E93C68300051DC6 /* inStatTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inStatTestTests.swift; sourceTree = "<group>"; };
@@ -71,8 +73,6 @@
 		2B43E1E01E93C68300051DC6 /* inStatTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inStatTestUITests.swift; sourceTree = "<group>"; };
 		2B43E1E21E93C68300051DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9B96911E9AB4CB009D1F05 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = ApplicationLayer/Assembly.swift; sourceTree = "<group>"; };
-		2BD5072A1E9B9DBF00E92E1B /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		2BD5072C1E9B9E5800E92E1B /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		2BF21E2C1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticServiceImplementation.swift; path = BusinessLogicLayer/Services/MatchStatisticServiceImplementation.swift; sourceTree = "<group>"; };
 		2BF831901E970168001AEA85 /* MatchStatisticPresentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticPresentor.swift; path = PresentationLayer/Presentor/MatchStatisticPresentor.swift; sourceTree = "<group>"; };
 		2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkClientImplementation.swift; path = CoreLayer/NetworkClientImplementation.swift; sourceTree = "<group>"; };
@@ -264,10 +264,10 @@
 		2BF831971E970D9D001AEA85 /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
-				2BD5072A1E9B9DBF00E92E1B /* Network.swift */,
 				2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */,
+				2B3EB6BC1EAA50F900741A77 /* Mapper.swift */,
+				2B3EB6BD1EAA50F900741A77 /* Network.swift */,
 				2BF8319B1E970EC3001AEA85 /* MapperImplementation.swift */,
-				2BD5072C1E9B9E5800E92E1B /* Mapper.swift */,
 				2BF8319A1E970E78001AEA85 /* Constants */,
 			);
 			name = CoreLayer;
@@ -485,13 +485,13 @@
 				2BF831991E970DFD001AEA85 /* CoreLayerConstants.swift in Sources */,
 				2BF21E2D1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift in Sources */,
 				2B3282A91E96FBC50056EE7B /* MatchStatisticCellView.swift in Sources */,
-				2BD5072B1E9B9DBF00E92E1B /* Network.swift in Sources */,
 				2BF831911E970168001AEA85 /* MatchStatisticPresentor.swift in Sources */,
 				2BF8319C1E970EC3001AEA85 /* MapperImplementation.swift in Sources */,
-				2BD5072D1E9B9E5800E92E1B /* Mapper.swift in Sources */,
 				2B9B96921E9AB4CB009D1F05 /* Assembly.swift in Sources */,
+				2B3EB6BF1EAA50F900741A77 /* Network.swift in Sources */,
 				2B3282AA1E96FBC50056EE7B /* MatchStatisticHeaderView.swift in Sources */,
 				2B3282A21E96FB330056EE7B /* MatchStatisticService.swift in Sources */,
+				2B3EB6BE1EAA50F900741A77 /* Mapper.swift in Sources */,
 				2BF831961E970D42001AEA85 /* NetworkClientImplementation.swift in Sources */,
 				2B3282A81E96FBC50056EE7B /* MatchStatisticViewController.swift in Sources */,
 				2B3282A41E96FB930056EE7B /* PresentationLayerConstants.swift in Sources */,
