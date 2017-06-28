@@ -10,4 +10,10 @@ import UIKit
 
 class MatchStatisticCellView: UITableViewCell {
     @IBOutlet var labels: [UILabel]!
+    
+    func setup(vm: MatchStatisticCellViewModel) {
+        for collumn in labels {
+            collumn.text = vm.setText(tag: collumn.tag, columns: labels.count)
+        }
+    }
 }

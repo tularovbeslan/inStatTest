@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B24000F1F03F87100A69463 /* MatchStatisticViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24000E1F03F87100A69463 /* MatchStatisticViewControllerConfigurator.swift */; };
+		2B2400111F03F8BB00A69463 /* MatchStatisticViewControllerInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2400101F03F8BB00A69463 /* MatchStatisticViewControllerInitializer.swift */; };
+		2B2400131F04411D00A69463 /* MatchStatisticViewControllerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2400121F04411D00A69463 /* MatchStatisticViewControllerOutput.swift */; };
+		2B2400151F04412E00A69463 /* MatchStatisticViewControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2400141F04412E00A69463 /* MatchStatisticViewControllerInput.swift */; };
+		2B2400191F0449F400A69463 /* MatchStatisticCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2400171F0449F400A69463 /* MatchStatisticCellView.swift */; };
+		2B24001A1F0449F400A69463 /* MatchStatisticHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2400181F0449F400A69463 /* MatchStatisticHeaderView.swift */; };
+		2B24001C1F0452DA00A69463 /* MatchStatisticCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24001B1F0452DA00A69463 /* MatchStatisticCellViewModel.swift */; };
 		2B32829B1E96FAA30056EE7B /* StatisticResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282951E96FAA30056EE7B /* StatisticResponse.swift */; };
 		2B32829D1E96FAA30056EE7B /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282971E96FAA30056EE7B /* Team.swift */; };
 		2B32829E1E96FAA30056EE7B /* PlayersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282981E96FAA30056EE7B /* PlayersResponse.swift */; };
 		2B3282A21E96FB330056EE7B /* MatchStatisticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282A11E96FB330056EE7B /* MatchStatisticService.swift */; };
-		2B3282A41E96FB930056EE7B /* PresentationLayerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282A31E96FB930056EE7B /* PresentationLayerConstants.swift */; };
 		2B3282A81E96FBC50056EE7B /* MatchStatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282A51E96FBC50056EE7B /* MatchStatisticViewController.swift */; };
-		2B3282A91E96FBC50056EE7B /* MatchStatisticCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282A61E96FBC50056EE7B /* MatchStatisticCellView.swift */; };
-		2B3282AA1E96FBC50056EE7B /* MatchStatisticHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3282A71E96FBC50056EE7B /* MatchStatisticHeaderView.swift */; };
 		2B3282AF1E96FBE10056EE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3282AB1E96FBE10056EE7B /* Main.storyboard */; };
 		2B3282B01E96FBE10056EE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3282AD1E96FBE10056EE7B /* LaunchScreen.storyboard */; };
 		2B3282B21E96FC250056EE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3282B11E96FC250056EE7B /* Assets.xcassets */; };
@@ -23,11 +27,9 @@
 		2B3EB6BF1EAA50F900741A77 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EB6BD1EAA50F900741A77 /* Network.swift */; };
 		2B43E1D61E93C68300051DC6 /* inStatTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43E1D51E93C68300051DC6 /* inStatTestTests.swift */; };
 		2B43E1E11E93C68300051DC6 /* inStatTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43E1E01E93C68300051DC6 /* inStatTestUITests.swift */; };
-		2B9B96921E9AB4CB009D1F05 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B96911E9AB4CB009D1F05 /* Assembly.swift */; };
 		2BF21E2D1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF21E2C1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift */; };
 		2BF831911E970168001AEA85 /* MatchStatisticPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831901E970168001AEA85 /* MatchStatisticPresentor.swift */; };
 		2BF831961E970D42001AEA85 /* NetworkClientImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */; };
-		2BF831991E970DFD001AEA85 /* CoreLayerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF831981E970DFD001AEA85 /* CoreLayerConstants.swift */; };
 		2BF8319C1E970EC3001AEA85 /* MapperImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF8319B1E970EC3001AEA85 /* MapperImplementation.swift */; };
 		9938D8ABDF82D5481F891085 /* Pods_inStatTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47E5E133E1D96C6E00F8B3C /* Pods_inStatTest.framework */; };
 /* End PBXBuildFile section */
@@ -50,14 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B24000E1F03F87100A69463 /* MatchStatisticViewControllerConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticViewControllerConfigurator.swift; path = PresentationLayer/Configurator/MatchStatisticViewControllerConfigurator.swift; sourceTree = "<group>"; };
+		2B2400101F03F8BB00A69463 /* MatchStatisticViewControllerInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticViewControllerInitializer.swift; path = PresentationLayer/Configurator/MatchStatisticViewControllerInitializer.swift; sourceTree = "<group>"; };
+		2B2400121F04411D00A69463 /* MatchStatisticViewControllerOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticViewControllerOutput.swift; path = PresentationLayer/View/MatchStatisticViewControllerOutput.swift; sourceTree = "<group>"; };
+		2B2400141F04412E00A69463 /* MatchStatisticViewControllerInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticViewControllerInput.swift; path = PresentationLayer/View/MatchStatisticViewControllerInput.swift; sourceTree = "<group>"; };
+		2B2400171F0449F400A69463 /* MatchStatisticCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticCellView.swift; path = PresentationLayer/View/Cells/MatchStatisticCellView.swift; sourceTree = "<group>"; };
+		2B2400181F0449F400A69463 /* MatchStatisticHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticHeaderView.swift; path = PresentationLayer/View/Cells/MatchStatisticHeaderView.swift; sourceTree = "<group>"; };
+		2B24001B1F0452DA00A69463 /* MatchStatisticCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticCellViewModel.swift; path = PresentationLayer/View/Cells/MatchStatisticCellViewModel.swift; sourceTree = "<group>"; };
 		2B3282951E96FAA30056EE7B /* StatisticResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatisticResponse.swift; path = Model/StatisticResponse.swift; sourceTree = "<group>"; };
 		2B3282971E96FAA30056EE7B /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Team.swift; path = Model/Team.swift; sourceTree = "<group>"; };
 		2B3282981E96FAA30056EE7B /* PlayersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayersResponse.swift; path = Model/PlayersResponse.swift; sourceTree = "<group>"; };
 		2B3282A11E96FB330056EE7B /* MatchStatisticService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticService.swift; path = BusinessLogicLayer/Services/MatchStatisticService.swift; sourceTree = "<group>"; };
-		2B3282A31E96FB930056EE7B /* PresentationLayerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentationLayerConstants.swift; path = PresentationLayer/Constants/PresentationLayerConstants.swift; sourceTree = "<group>"; };
 		2B3282A51E96FBC50056EE7B /* MatchStatisticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticViewController.swift; path = PresentationLayer/View/MatchStatisticViewController.swift; sourceTree = "<group>"; };
-		2B3282A61E96FBC50056EE7B /* MatchStatisticCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticCellView.swift; path = PresentationLayer/View/MatchStatisticCellView.swift; sourceTree = "<group>"; };
-		2B3282A71E96FBC50056EE7B /* MatchStatisticHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticHeaderView.swift; path = PresentationLayer/View/MatchStatisticHeaderView.swift; sourceTree = "<group>"; };
 		2B3282AC1E96FBE10056EE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PresentationLayer/View/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B3282AE1E96FBE10056EE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PresentationLayer/View/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3282B11E96FC250056EE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
@@ -72,11 +78,9 @@
 		2B43E1DC1E93C68300051DC6 /* inStatTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inStatTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B43E1E01E93C68300051DC6 /* inStatTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inStatTestUITests.swift; sourceTree = "<group>"; };
 		2B43E1E21E93C68300051DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B9B96911E9AB4CB009D1F05 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = ApplicationLayer/Assembly.swift; sourceTree = "<group>"; };
 		2BF21E2C1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticServiceImplementation.swift; path = BusinessLogicLayer/Services/MatchStatisticServiceImplementation.swift; sourceTree = "<group>"; };
 		2BF831901E970168001AEA85 /* MatchStatisticPresentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchStatisticPresentor.swift; path = PresentationLayer/Presentor/MatchStatisticPresentor.swift; sourceTree = "<group>"; };
 		2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkClientImplementation.swift; path = CoreLayer/NetworkClientImplementation.swift; sourceTree = "<group>"; };
-		2BF831981E970DFD001AEA85 /* CoreLayerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreLayerConstants.swift; path = CoreLayer/Constants/CoreLayerConstants.swift; sourceTree = "<group>"; };
 		2BF8319B1E970EC3001AEA85 /* MapperImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapperImplementation.swift; path = CoreLayer/MapperImplementation.swift; sourceTree = "<group>"; };
 		C47E5E133E1D96C6E00F8B3C /* Pods_inStatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inStatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7AA412156947C8500B8F84 /* Pods-inStatTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inStatTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-inStatTest/Pods-inStatTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,12 +121,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2B3F2B101E9597B000204588 /* Constants */ = {
+		2B24000D1F03F83300A69463 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				2B3282A31E96FB930056EE7B /* PresentationLayerConstants.swift */,
+				2B24000E1F03F87100A69463 /* MatchStatisticViewControllerConfigurator.swift */,
+				2B2400101F03F8BB00A69463 /* MatchStatisticViewControllerInitializer.swift */,
 			);
-			name = Constants;
+			name = Configurator;
+			sourceTree = "<group>";
+		};
+		2B2400161F0449E600A69463 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B2400171F0449F400A69463 /* MatchStatisticCellView.swift */,
+				2B2400181F0449F400A69463 /* MatchStatisticHeaderView.swift */,
+				2B24001B1F0452DA00A69463 /* MatchStatisticCellViewModel.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		2B43E1B41E93C68300051DC6 = {
@@ -182,11 +197,10 @@
 		2B43E1F01E94142700051DC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2B3282AB1E96FBE10056EE7B /* Main.storyboard */,
-				2B3282AD1E96FBE10056EE7B /* LaunchScreen.storyboard */,
 				2B3282A51E96FBC50056EE7B /* MatchStatisticViewController.swift */,
-				2B3282A61E96FBC50056EE7B /* MatchStatisticCellView.swift */,
-				2B3282A71E96FBC50056EE7B /* MatchStatisticHeaderView.swift */,
+				2B2400121F04411D00A69463 /* MatchStatisticViewControllerOutput.swift */,
+				2B2400141F04412E00A69463 /* MatchStatisticViewControllerInput.swift */,
+				2B2400161F0449E600A69463 /* Cells */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -195,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				2B3282B51E96FC6A0056EE7B /* AppDelegate.swift */,
-				2B9B96911E9AB4CB009D1F05 /* Assembly.swift */,
 			);
 			name = ApplicationLayer;
 			sourceTree = "<group>";
@@ -221,9 +234,9 @@
 		2B43E1F61E94163500051DC6 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				2B24000D1F03F83300A69463 /* Configurator */,
 				2B43E1F01E94142700051DC6 /* View */,
 				2BF831921E970185001AEA85 /* Presentor */,
-				2B3F2B101E9597B000204588 /* Constants */,
 			);
 			name = PresentationLayer;
 			sourceTree = "<group>";
@@ -239,6 +252,8 @@
 		2B43E1F81E94165600051DC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B3282AB1E96FBE10056EE7B /* Main.storyboard */,
+				2B3282AD1E96FBE10056EE7B /* LaunchScreen.storyboard */,
 				2B3282B31E96FC490056EE7B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -264,21 +279,12 @@
 		2BF831971E970D9D001AEA85 /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
+				2B3EB6BD1EAA50F900741A77 /* Network.swift */,
 				2BF831951E970D42001AEA85 /* NetworkClientImplementation.swift */,
 				2B3EB6BC1EAA50F900741A77 /* Mapper.swift */,
-				2B3EB6BD1EAA50F900741A77 /* Network.swift */,
 				2BF8319B1E970EC3001AEA85 /* MapperImplementation.swift */,
-				2BF8319A1E970E78001AEA85 /* Constants */,
 			);
 			name = CoreLayer;
-			sourceTree = "<group>";
-		};
-		2BF8319A1E970E78001AEA85 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				2BF831981E970DFD001AEA85 /* CoreLayerConstants.swift */,
-			);
-			name = Constants;
 			sourceTree = "<group>";
 		};
 		6FEC7CC911F6002997A54F9F /* Pods */ = {
@@ -453,7 +459,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DB0FE2D6ABF1FDC6A0E182E6 /* [CP] Copy Pods Resources */ = {
@@ -478,23 +484,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B24000F1F03F87100A69463 /* MatchStatisticViewControllerConfigurator.swift in Sources */,
 				2B3282B61E96FC6A0056EE7B /* AppDelegate.swift in Sources */,
 				2B32829D1E96FAA30056EE7B /* Team.swift in Sources */,
 				2B32829E1E96FAA30056EE7B /* PlayersResponse.swift in Sources */,
+				2B2400151F04412E00A69463 /* MatchStatisticViewControllerInput.swift in Sources */,
+				2B2400191F0449F400A69463 /* MatchStatisticCellView.swift in Sources */,
 				2B32829B1E96FAA30056EE7B /* StatisticResponse.swift in Sources */,
-				2BF831991E970DFD001AEA85 /* CoreLayerConstants.swift in Sources */,
 				2BF21E2D1E97251A001ADB22 /* MatchStatisticServiceImplementation.swift in Sources */,
-				2B3282A91E96FBC50056EE7B /* MatchStatisticCellView.swift in Sources */,
+				2B2400111F03F8BB00A69463 /* MatchStatisticViewControllerInitializer.swift in Sources */,
 				2BF831911E970168001AEA85 /* MatchStatisticPresentor.swift in Sources */,
+				2B2400131F04411D00A69463 /* MatchStatisticViewControllerOutput.swift in Sources */,
 				2BF8319C1E970EC3001AEA85 /* MapperImplementation.swift in Sources */,
-				2B9B96921E9AB4CB009D1F05 /* Assembly.swift in Sources */,
+				2B24001A1F0449F400A69463 /* MatchStatisticHeaderView.swift in Sources */,
 				2B3EB6BF1EAA50F900741A77 /* Network.swift in Sources */,
-				2B3282AA1E96FBC50056EE7B /* MatchStatisticHeaderView.swift in Sources */,
 				2B3282A21E96FB330056EE7B /* MatchStatisticService.swift in Sources */,
 				2B3EB6BE1EAA50F900741A77 /* Mapper.swift in Sources */,
+				2B24001C1F0452DA00A69463 /* MatchStatisticCellViewModel.swift in Sources */,
 				2BF831961E970D42001AEA85 /* NetworkClientImplementation.swift in Sources */,
 				2B3282A81E96FBC50056EE7B /* MatchStatisticViewController.swift in Sources */,
-				2B3282A41E96FB930056EE7B /* PresentationLayerConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
