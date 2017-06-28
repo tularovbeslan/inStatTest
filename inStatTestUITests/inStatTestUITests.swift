@@ -12,25 +12,37 @@ class inStatTestUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
-        
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-        
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSelectingTeam() {
+        let app = XCUIApplication()
+        let zenitButton = app.segmentedControls.buttons["Zenit"]
+        zenitButton.tap()
+        
+        let krasnodarButton = app.segmentedControls.buttons["Krasnodar"]
+        krasnodarButton.tap()
+        zenitButton.tap()
+    }
+    
+    func testSorting() {
+        let tablesQuery = XCUIApplication().tables
+        let tablesQuery2 = tablesQuery
+        sleep(1)
+        tablesQuery2.buttons["Player"].tap()
+        sleep(1)
+        tablesQuery2.buttons["Total distance"].tap()
+        sleep(1)
+        tablesQuery2.buttons["Average speed"].tap()
+        sleep(1)
+        tablesQuery2.buttons["Minutes played"].tap()
+        sleep(1)
+        tablesQuery2.buttons["InStat Index"].tap()
     }
     
 }
