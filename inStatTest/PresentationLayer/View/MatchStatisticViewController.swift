@@ -26,6 +26,11 @@ class MatchStatisticViewController: UIViewController, MatchStatisticViewControll
         tableViewConfigure()
     }
     
+    func configureSegmentedControl() {
+        segmentedControl.subviews[0].accessibilityLabel = "First team"
+        segmentedControl.subviews[1].accessibilityLabel = "Second team"
+    }
+    
     func tableViewConfigure() {
         tableView.tableFooterView = UIView()
     }
