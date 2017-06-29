@@ -6,8 +6,6 @@
 //  Copyright © 2017 BESLAN TULAROV. All rights reserved.
 //
 
-import Foundation
-
 struct StatisticResponse {
     let teams: [Team]?
     let team1: String?

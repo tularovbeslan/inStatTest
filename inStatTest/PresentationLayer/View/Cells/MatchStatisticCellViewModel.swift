@@ -9,10 +9,11 @@
 import UIKit
 
 class MatchStatisticCellViewModel {
-    var teams: [Team]?
     var rowHeight: CGFloat = 50
-    var index: Int!
-    var selectedTeam = 0
+
+    private var teams: [Team]?
+    private var index: Int!
+    private var selectedTeam = 0
     
     init(teams: [Team]?) {
         self.teams = teams

@@ -6,8 +6,6 @@
 //  Copyright © 2017 BESLAN TULAROV. All rights reserved.
 //
 
-import Foundation
-
 class MatchStatisticPresentor: MatchStatisticViewControllerOutput {
     var view: MatchStatisticViewControllerInput!
     var service: MatchStatisticService!

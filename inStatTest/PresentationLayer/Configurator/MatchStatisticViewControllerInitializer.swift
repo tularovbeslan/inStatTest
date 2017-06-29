@@ -7,8 +7,8 @@
 //
 
 import UIKit
+
 class MatchStatisticViewControllerInitializer: NSObject {
-    //Connect with object on storyboard
     @IBOutlet weak var matchStatisticViewController: MatchStatisticViewController!
     
     override func awakeFromNib() {

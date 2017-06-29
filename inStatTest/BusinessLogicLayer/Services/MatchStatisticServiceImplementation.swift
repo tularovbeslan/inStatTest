@@ -6,10 +6,7 @@
 //  Copyright © 2017 BESLAN TULAROV. All rights reserved.
 //
 
-import Foundation
-
 class MatchStatisticServiceImplementation: MatchStatisticService {
-
     var networkClient: Network!
     var mapper: Mapper!
     

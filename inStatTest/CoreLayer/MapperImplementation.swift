@@ -5,8 +5,6 @@
 //  Created by BESLAN TULAROV on 07.04.17.
 //  Copyright © 2017 BESLAN TULAROV. All rights reserved.
 //
-
-import Foundation
 import SwiftyJSON
 
 class MapperImplementation: Mapper {

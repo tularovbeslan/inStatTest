@@ -6,7 +6,6 @@
 //  Copyright © 2017 BESLAN TULAROV. All rights reserved.
 //
 
-import Foundation
 import  Alamofire
 
 protocol Network {

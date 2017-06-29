@@ -6,8 +6,6 @@
 //  Copyright © 2017 BESLAN TULAROV. All rights reserved.
 //
 
-import Foundation
-
 protocol MatchStatisticViewControllerInput {
     func reloadView()
     func stopActivityIndicator()

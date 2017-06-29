@@ -11,14 +11,14 @@ import Alamofire
 import SwiftyJSON
 
 class MatchStatisticViewController: UIViewController, MatchStatisticViewControllerInput {
-
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     var output: MatchStatisticViewControllerOutput!
-    var team: Int = 0
     var viewModel: MatchStatisticCellViewModel!
+    
+    fileprivate var team: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()

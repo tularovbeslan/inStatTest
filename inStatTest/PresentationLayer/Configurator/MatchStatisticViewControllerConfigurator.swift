@@ -9,16 +9,13 @@
 import UIKit
 
 class MatchStatisticViewControllerConfigurator {
-    
     func configureViewInput<UIViewController>(viewInput: UIViewController) {
-        
         if let viewController = viewInput as? MatchStatisticViewController {
             configure(viewController: viewController)
         }
     }
     
     private func configure(viewController: MatchStatisticViewController) {
-        
         let networkClient = NetworkClientImplementation()
         
         let mapper = MapperImplementation()
