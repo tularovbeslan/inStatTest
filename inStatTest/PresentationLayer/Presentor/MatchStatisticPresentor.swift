@@ -7,7 +7,7 @@
 //
 
 class MatchStatisticPresentor: MatchStatisticViewControllerOutput {
-    var view: MatchStatisticViewControllerInput!
+    weak var view: MatchStatisticViewControllerInput!
     var service: MatchStatisticService!
     private var statistic: StatisticResponse?
     

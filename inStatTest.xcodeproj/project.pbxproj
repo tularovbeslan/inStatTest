@@ -197,9 +197,9 @@
 		2B43E1F01E94142700051DC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2B3282A51E96FBC50056EE7B /* MatchStatisticViewController.swift */,
-				2B2400121F04411D00A69463 /* MatchStatisticViewControllerOutput.swift */,
 				2B2400141F04412E00A69463 /* MatchStatisticViewControllerInput.swift */,
+				2B2400121F04411D00A69463 /* MatchStatisticViewControllerOutput.swift */,
+				2B3282A51E96FBC50056EE7B /* MatchStatisticViewController.swift */,
 				2B2400161F0449E600A69463 /* Cells */,
 			);
 			name = View;
