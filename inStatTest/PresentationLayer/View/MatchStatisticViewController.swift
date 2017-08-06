@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
 
 class MatchStatisticViewController: UIViewController, MatchStatisticViewControllerInput {
     @IBOutlet weak var segmentedControl: UISegmentedControl!

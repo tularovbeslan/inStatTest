@@ -6,7 +6,7 @@
 //  Copyright © 2017 BESLAN TULAROV. All rights reserved.
 //
 
-protocol MatchStatisticViewControllerInput {
+protocol MatchStatisticViewControllerInput: class {
     func reloadView()
     func stopActivityIndicator()
     func setFirstTeam(title: String)
